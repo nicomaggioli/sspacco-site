@@ -445,19 +445,6 @@ body.is-project { padding-bottom: 0; }
   white-space: nowrap;
 }
 
-/* site-wide footer credit */
-.site-foot {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-  padding: 22px var(--pad);
-  border-top: 1px solid var(--line);
-}
-.site-foot a { transition: color 150ms ease; }
-.site-foot a:hover { color: var(--accent); text-decoration: none; }
-
-
 /* ============================================================
    responsive
    ============================================================ */
