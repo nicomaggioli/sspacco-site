@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Project — Salvatore Spacco</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body class="is-project">
+
+<a href="index.html#top" class="logo" aria-label="home">
+  <svg viewBox="0 0 100 100" aria-hidden="true">
+    <defs>
+      <path id="circle-path" d="M 50,50 m -38,0 a 38,38 0 1,1 76,0 a 38,38 0 1,1 -76,0" />
+    </defs>
+    <text class="logo-text">
+      <textPath href="#circle-path" startOffset="0">SALVATORE SPACCO · MULTIDISCIPLINARY ARTIST · </textPath>
+    </text>
+    <text x="50" y="55" text-anchor="middle" class="logo-mark">SS</text>
+  </svg>
+</a>
+
+<header class="micro top-right">
+  <span id="clock">--:--:-- EST</span>
+  <span class="dot">·</span>
+  <span id="today">—</span>
+</header>
+
+<nav class="micro top-center">
+  <a href="index.html#work">work</a>
+  <a href="index.html#about">about</a>
+  <a href="index.html#now">now</a>
+  <a href="index.html#contact">contact</a>
+</nav>
+
+<aside class="micro bottom-right">
+  <span><a href="mailto:salvatorespacco@gmail.com">salvatorespacco@gmail.com</a></span>
+</aside>
+
+
+<!-- ============ PROJECT HEAD ============ -->
+<section class="p-head">
+  <a class="p-back micro" href="index.html#work">← back to work</a>
+  <h1 id="p-title" class="p-title">—</h1>
+  <p id="p-meta" class="p-metaline micro">—</p>
+  <p id="p-desc" class="p-desc">—</p>
+</section>
+
+
+<!-- ============ GALLERY ============ -->
+<section id="p-gallery" class="p-gallery"></section>
+
+
+<!-- ============ PREV / NEXT ============ -->
+<section class="p-nav">
+  <a id="p-prev" class="p-arrow" href="#">
+    <span class="micro">← prev</span>
+    <span id="p-prev-name" class="p-arrow-name">—</span>
+  </a>
+  <span id="p-counter" class="micro p-count">— / —</span>
+  <a id="p-next" class="p-arrow p-arrow-r" href="#">
+    <span class="micro">next →</span>
+    <span id="p-next-name" class="p-arrow-name">—</span>
+  </a>
+</section>
+
+
+<!-- ============ FOOTER (credit) ============ -->
+<footer class="site-foot micro">
+  <span>website built by <a href="https://nicomaggioli.com" target="_blank" rel="noopener">Nico Maggioli</a></span>
+  <span>© sal spacco</span>
+</footer>
+
+
+<script src="projects.js"></script>
+<script src="script.js"></script>
+<script>renderProject();</script>
+</body>
+</html>
